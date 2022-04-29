@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import glob
 from functools import reduce
-import scipy.stats
 import matplotlib
 from matplotlib.patches import Patch
 from matplotlib import gridspec
@@ -13,11 +12,8 @@ import matplotlib.font_manager as font_manager
 from matplotlib.patches import PathPatch
 import seaborn as sns
 from datetime import datetime
-import string
 import warnings
-
 warnings.filterwarnings('ignore')
-
 # matplotlib parameters to export figures to latex with the adequate font type
 matplotlib.rcParams['pdf.fonttype'] = 42
 matplotlib.rcParams['ps.fonttype'] = 42
@@ -26,7 +22,7 @@ plt.rcParams['figure.figsize'] = [40, 20]
 plt.rcParams['figure.dpi'] = 100
 plt.rcParams["figure.autolayout"] = True
 
-
+# define function to assign a label to each of the panels of the figure
 def setlabel(ax, label, loc=2, borderpad=-1.5, **kwargs):
     legend = ax.get_legend()
     if legend:
@@ -463,7 +459,7 @@ def adjust_box_widths(g, fac):
 # Compare aggregated measures from the teo PSSUQ questionnaires
 # Import first PSSUQ and format the dataframe
 df_form = formPSSUQ(filePath='data/PSSUQ/scores/SERDIF_PSSUQ_P2.csv')
-df_manual = manualPSSUQ(filePath='data/PSSUQ/scores/SERDIF_PSSUQ_P2.csv')
+df_manual = manualPSSUQ(filePath='data/PSSUQ/scores/SERDIF_PSSUQ_P1.csv')
 
 # Convert data frames from wide to long
 df_manual_long = pd.melt(df_manual, id_vars='index', value_vars=['SysUse', 'InfoQual', 'IntQual', 'Overall'])
@@ -502,6 +498,7 @@ fig.subplots_adjust(bottom=0.15)
 plt.savefig('Fig4-pssuq-p1p2.pdf', bbox_inches='tight')
 plt.show()
 
+# Figure 4: PSSUQ codes heat map
 fig = plt.figure(figsize=(12, 8))
 # Read all_tags.csv exported from Taguette
 df = pd.read_csv('data/transcripts/thematic-analysis/tags/csv/all_tags_20220301_PSSUQ.csv')
