@@ -1,0 +1,58 @@
+P11 06/12/2021
+T1
+	Information in the home tab well summarized
+	
+T2
+	Login fine
+T3
+	Events understood as flare categories
+	Location where they are more
+	length-lag needs help info not clear
+	Confusion in time-window becomes clearer with the datatable
+T4
+	Data provenance
+		where the data came from
+		event heading to eventID
+		chek if event day is lagged or not
+		dataSetsUsed don't mean anything to the participant
+			could fix that
+	Collapse function needs headings for clarification otherwise confusing
+	Data Lineage not
+	Number of datasets understood as types of datasets - Confusion between data sources and data sets
+	Full metadata exploration
+		Not sure about the usefulness for a user 
+		License is US not UK
+	Display of code by default could be unnessary, print log instead of display
+T5
+	dateT has no tooltip
+	Z-scores with NaN why do they appear in blue? - Empty blue squares
+	Z-score is for all the values in the columns
+	Z-score only calculated from the datatable values present
+		Z-scores as yearly/monthly anomalies
+T6
+	Boxplot
+		Impresion of the raw values
+	Boxplot
+		Harder to understand not clear how its helpful
+		Text box explaining the rule of thumb cases
+	Heatmap
+		Relative time from the event x-axis
+		Usefulness of the plot
+		Standardized the plot colorbar for specific variables values based on seasonality
+	Stardization confusion
+T7
+	Check message to be specific for EventType and Location
+	Comparison between Queries straightforward
+	Add more detail on the Z-scores are evaluated
+T8 
+	Downloads fine
+T9
+	Some things are not clear straight away
+	Add help tooltips to add explanations to make it more straightforward
+	General directions tab
+		with time-window
+	Z-scores can see the intend of the usefulness but the real usefulness might not be much
+	Did not fully grasp the data provenance and lineage - understand collapsable
+	The heatmap was nice
+	patient level events, two events per patient
+	

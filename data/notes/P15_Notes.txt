@@ -1,0 +1,54 @@
+P10 01/12/2021
+T1
+	graphd database is the same of knowledge graph?
+	RDF not clear
+	info overall useful and enough
+T2
+	Login easy
+T3
+	Clear input options
+	Complete inputs
+T4
+	Data provenance table understandable
+	Data Sets Used num perfect
+	Data Lineage understands it as the code
+	Full metadata exploration
+	Metadata fields identified easily
+T5
+	NOXasNO2 not working
+	Hoverning names understood
+	Cell background colors understood
+	Toggle and eye easy
+	Envo data enough to link with health events
+	Missing data could be a problem
+	Extra environmnetal data like metals can be useful
+T6
+	PM10 not workign for Cork - high probability
+	The plots take a bit to display
+	Heatmap:
+		multiple events issues
+		slider not clear
+		x-axis to include the proper lag
+		x-axis rename to days previous from the event
+	Boxplot:
+		Not showing all events when there are a lot of them
+	Polarlot:
+		New perspective to the current one
+T7
+	Compare Q1 and 2 straight forwards
+	Plots easy to compare
+T8
+	Easy downloads
+	You can work on your own once you have downloaded the files
+	Easy to understand
+	Very re-usable for helat-envo research because you can select the individual events
+	Interesting to pick individual events
+	User-friendly
+	First exploration
+T9
+	The text provided was useful as a guide to use the dashboard
+	The second time was faster and easier
+	You get used to the dashboard functionalities quickly
+	Confidence with the data distributions and buttons
+		
+	

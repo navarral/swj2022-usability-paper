@@ -1,0 +1,46 @@
+P7 26/11/2021
+T1
+	Login before T2
+	Add an example in the text of the tab	
+	|-----------| Length
+	            |----| Lag
+	  Envo data		 | Event
+T2
+	Fine
+T3
+	"Envo" term not clear
+	lag-length not clear
+	Does not explore the (i) info
+T4
+	Bc of the zoomed view the participant struggles to find the
+	 intro paragraph and the Q1 tab label
+	DataSetsUsed hard to understand - maybe links or hover info?
+	DataSetsUSed count fine
+	Data lineage concept fine but not usable/understandable
+	Does not collapse the buttons which difficults the overall
+	 navigation and readability
+T5
+	lag-length comprehension issue
+	table fine and (re)usable
+T6
+	Heatmap hard to understand:
+		needs clarification and to fix X-axis units with the lag
+		multiple events overlap
+	Boxplot easier to understand
+	Polar plot not clear bc it is not per event:
+		needs clarification
+T7
+	Acknowledges that multiple inputs can happen
+	Data sets are for one region+time not per event - how can I fix that
+	Collapse buttons need a title to help navigation
+T8
+	Downloads everything fine
+T9
+	There is a lot of information to concentrate on
+	Balance between volume of info and simple UI
+	Clarify the lag-len
+	
+	
+	
+	
+	

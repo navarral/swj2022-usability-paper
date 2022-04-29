@@ -1,0 +1,48 @@
+P17 16/12/2021
+T1
+	Information provided is enough
+	Health events wording in the graphical figure
+T2
+	Login no problem
+T3
+	Events definition is not clear
+	Map of the locations available
+	time-window length and lag with information to clarify the meaniing
+T4
+	Collapse buttons function not clear
+	Data provenance not clear at first
+		Able to undestand the datasets used
+	Data Lineage usefulness not mentioned
+	Full metadata exploration
+		Control+F searching find after mentioning arrows
+	
+T5
+	Normally not normally distributed - 
+	Column names fine and toggle too
+	The table is useful for users that come from the health domain and 
+	 it is intuitive to get the covariates needed for analysis
+T6
+	Fix lag x-axis
+	Heatmap
+		Not understand what the slider below is useful for
+		Many events can be problematic to visualize
+		Assess the significance overall selection with regard to the entire database for query relevance
+	Boxplot
+		Very useful
+		Showcase by colour the diferent seasons
+		Anomalies are more valuable for research than raw values
+	Polarplot:
+		typical polar plot relevant and nice and can be informative
+	Time series plot highliting the points that are anomalies
+	
+	Include numeric input to filter/select specific values such as outliers
+	Seasonality by computing monthly mean value
+T7
+	Comparison feasible
+T8 
+	Downloads fine and fast
+	Useful data for research
+T9
+	Interesting approach 
+	Info + plots for preliminary assessment for those covariates
+	Easy to operate and export the datasets for further exploration

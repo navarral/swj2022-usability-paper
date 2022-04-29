@@ -1,0 +1,47 @@
+tag,description,number of highlights
+Moderator comment,"The moderator intervenes because the participant struggles to complete a task, wanders of task or goes too deep into a task or the systems crashes.",184
+Task sequence complex,"The task was confusing, not completed in the required order or had to be read again.",151
+Query inputs clear,The query input options are clear in general.,138
+Additional feature suggestion,"Distinguish outliers based on historical data.
+Add time series, scatter and histogram plots.
+Add an advanced aggregation method and select all features.
+Define, select and group events feature for exploration.
+Summarize the metadata in a user friendly way.
+Facilitate the understanding of the data table and increase amount of data.",124
+Visualization useful,"Visualizing the data as a heat map, box plot and/or polar plot is useful, simple and the interactivity adds value.",116
+Export data useful,"Exporting the data, once it is understood, is useful for a subsequent analysis.",111
+Navigation complex,The design of the export and metadata buttons together with the multiple tab approach and the functionality of the pop ups complicate the navigation.,100
+Wording not clear,A word or expression that appears in a paragraph is not clear or used appropriately. ,75
+Simple export,Data and metadata generated are simple and easy to export,70
+Data provenance table simple,The information in the data provenance table is understandable,66
+Query process clear,The query process and execution is clear.,61
+Search feature simple,Control+F function to look for specific elements in the metadata is simple and easy for the user,60
+Plot design complex,"The content, axis ticks and labels of the plots are not clear.",59
+Positive comment,,49
+Additional explanation,"The participant requests additional explanation for a feature, visualization or text description.",48
+Query process complex,The query process and the sequence and meaning of the query inputs are not understood.,47
+System issue,"The user identifies a system issue as taking long to load, crash or not responsive.",45
+Metadata content not useful or confusing,"The information provided in the data provenance table, data lineage and/or full metadata exploration windows is not useful or confusing.",43
+Data table features useful,"Hiding, restoring and ordering the columns and values in the data table improves the usability of the table",37
+Home tab clear,The text and diagram information in the home tab facilitate the overall understanding of process underpinned by the UI.,35
+Data table colors concept clear,After reading the explanatory paragraph the data table cell background colors are understood,35
+Data table features confusing,"The pagination, sorting and X features of the table are confusing.",32
+Search information process complex,,31
+Event concept not clear,The event concept and terminology are not understood as they are confused with number of cases,30
+Metadata content clear and useful,"The content from the data provenance, data lineage and/or full metadata windows is clear and/or useful.",24
+Data set filenames not clear,The data set filenames are not clear or confusing.,20
+Log in easy,The user logs in to the dashboard easily and quickly,19
+Query input feature useful,"The tooltips, text and drop downs (multi)inputs help the user in understanding the query process.",18
+Additional source exploration,The user clicks on an information link leading to the exploration of additional sources besides the dashboard.,15
+Export (meta)data useful,,14
+Plot comparison fine,The plots from different queries can be compared easily.,13
+Export name and format unknown,The export file format and name are unknown or not clear.,12
+Negative comment,,12
+Events and location interest,Explicit interest in the event types or locations available.,12
+Data table tooltip missing,When hovering over the column heading of the data table some variables are missing the information tooltip,11
+Tab generation process,Tab generation process after submitting a query,9
+Open tag,,9
+Data source unknown,"The sources of the data sets are unknown, not understood in the metadata and/or data table.",8
+Sort elements,The query input options and variables from the drop downs should be sorted alphabetically.,8
+Export metadata useful,,5
+Concern about time,The participants makes a comment about the speed in completing the tasks.,5

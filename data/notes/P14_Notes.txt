@@ -1,0 +1,88 @@
+P11 03/12/2021
+T1
+	Information fine for overall understadings
+	Few typos or syntax issues
+	Example include in the home tab
+T2
+	Fine
+T3
+	Events not clear
+	Suspects that events are related to flare events
+	(i) info hard to get rid off
+	Event categories do not make sense from a research prespective
+	Time-window lentgh not clear - presumes is the interval -> months
+	Time-window lag period 
+	Envo not clear
+	Aggregation method depends on variable so to an overall data set 
+	Min/Max should be combined
+	environmental instad of envo
+T4
+	Comprehend is a poor word
+	Re-write first sentence
+	Information for Data Provenance and Lineage and besides each of the buttons
+	Data provennace:
+		More readable headings
+		eg not clear -> remove
+		not clear of the number in the event means
+		event date per individual or per group
+		dataSetsUsed not clear what they mean
+	Buttons not clear how to hide
+	Data Lineage
+		Understands it as code but cannot read that
+		understands that is the code underpinning the query
+	Full metadata:
+		Data protection terms useful in the FAIR concepts
+		The participants enjoys the full metadata report
+		Info about the event missing
+	CTRL+F is easy to use
+	
+T5
+	Datatable -> data table
+		How do we know that data is normally distributed? how to check that
+		dateT
+	Mentions missing data
+	Headings info is fine
+	Some not displaying correctly
+	No PM2.5 for Galway
+	Background fine
+	Need to fix missing values with colour background
+	Toggle useful and eye easy to use
+	Table is useful assuming that the event we are studying and the variables are relevant to the research question
+	Data table pages not intuitive
+	Filtering table accordint to events in question
+T6
+	Heatmap:
+		nice feature
+		order the events
+		event category defined on heatmap
+		pollution ones not working
+	Boxplot:
+		Not clear what it represents, boxplot for the whole event
+		Useful
+		Events in the Y axis not shown
+	Polar plot:
+		Not sure what it means
+		Does not understand the relation to the events
+		needs explanation
+	Scatter plot addition
+T7
+	Compare side by side would be more useful
+	Easy to compare when the tabs are clicked
+	Q1 -> Query 1
+	A few tweaks to explore the data quite nicely
+T8
+	Export data fine
+	Different formats can be useful since rdf
+	Data.csv as default name is hard
+	zip is easy
+T9
+	The data would be useful with the caviats described before
+	Define the events
+	Define the study
+	Select all option
+	Little few issues to tweak but it is intuitive and folow
+	
+	
+	
+	
+	

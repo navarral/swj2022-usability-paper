@@ -1,0 +1,48 @@
+P8 29/11/2021
+T1
+	Prefers to do inside reading
+	Info clear enough but some terms not clear:
+		SPARQL query
+		RDF not clear
+		Acronyms not clear
+T2
+	Login easy
+T3
+	Events (i) not found at first
+	Definition of tim-ewindow length-lag
+	Discovers (i) for temporal unit and agg method
+	Envo data agg not clear
+T4
+	5 buttons task 
+	Data provenance and lineage not useful at first
+	Add data provenance and lineage headings
+	Data lineage not readable
+	Data sets used num is fine
+	Confusing having 3 buttons
+	Data provenance and lineage terms not clear
+	Data provenance datasets not clear
+T5
+	Description and units nice to have when hovering
+	Datatable cell background colours not clear
+	Toggle columns for useful than the eye
+	Indicate that some columns have been hidden
+	Data table useful with a lot of variables
+T6
+	Starts with Polar plot
+		Add information about the plot
+		Generated some doubts because of the order
+		Not clear what the circles mean in the plot
+	Box plot fine
+	Plots not very clear
+	Add tooltip in the square? - not sure when there are a lot of values
+T7
+	Event info not clear
+	Broken Q2 does not allow to complete the query comparison subtab
+T8
+	Downlaods easy and useful
+	Data would be very useful but needs to include if it is observational
+	 or satellite data - does not completely trust the data
+T9
+	Minor changes to clarify what you can obtain from each step
+	Metadata buttons problematic to understand
+	Overall useful tool

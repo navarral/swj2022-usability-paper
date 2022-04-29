@@ -1,0 +1,42 @@
+P11 03/12/2021
+T1
+	SPARQL query not that clear
+	explores methodology and KG
+	good and clear info
+T2
+	Easy login
+T3
+	Different case studies useful
+	Time-window length and lag not clear - needs clarification
+	Query submited fine
+T4
+	DataSetsUSed not clear what is exaplained there - needs further clarification
+	Event name not clear - number of observation for each case
+	Data lineage: not that clear but it could be useful for a CS for reporting
+	Full metadata exploration info findable but the RDF notation can be hard to tackle at first
+T5
+	dateT has no tooltip
+	Select a specific range for a variable
+	The datatable is useful for analysis but not that good for understanding the data itself
+	Would like to add clinical data to the environmental at the same time
+T6
+	Need to fix lag and maybe better x-axis label
+	HEatmap fine
+	Boxplot
+		Likes the interactive feature when hovering over
+	Polarplot
+		Not clear 
+	Plot many variables at the same time as in ggplot
+	Enjoys the plots to visualize the data
+T7
+	Metadata found faster than first time
+	Both plots at the same time
+T8 
+	Donwloads are easy but datatable was hard to find
+T9
+	Extra information like demographics such as age and sex
+	Adding clinical information and arregle the number of observation per case
+	Great experience
+	
+	
+	

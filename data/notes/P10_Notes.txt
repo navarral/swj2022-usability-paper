@@ -1,0 +1,40 @@
+P10 29/11/2021
+T1
+	Information clear and understandable
+	Terms
+T2
+	Sign in fine
+T3
+	length-lag not that clear
+	the rest clear
+T4
+	DataSetsUsed long names but not clear
+	Collapse not clear
+	Scrolling around the displays not easy
+	Confusion around metadata
+	Search info hard at first but then gets faster
+T5
+	dateT has no info when hovering
+	cell background colours easy to understand
+	understands table because of prevous experience
+	nothing extra
+T6
+	Heatmap
+		slider good if there are a lot of events
+		understands the heatmap
+	Boxplot clear
+	Polar plot could use an explanation
+	Changes in variables over a period of time - suggesting anomalies plot
+T7
+	Multiple queries on the top not completly clear
+	Comparison straighforward
+	Studying the trends could be useful
+T8
+	Export straighforward
+	Useful data
+	metadata useful
+T9
+	Way better than the previous version
+	Maybe the participant needs some extra info in the events 
+	 and time window len-lag
+	Searching metadata hard

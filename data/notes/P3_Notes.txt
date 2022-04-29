@@ -1,0 +1,55 @@
+P3 25/11/2021
+T1
+	Explores the KG link with the 
+	Description of what a KG is
+	All makes sense to how is useful
+T2
+	Fine
+T3
+	Understands events without exploring the (i)
+	Time window explanations
+	Understands check data availability
+	Aggregation hard to choose and it depends on the variable
+	Would like to know the variables available
+T4
+	Data provenance easy understood
+	Datasetsused not completly understood - needs extra info
+	Data lineage hard to understand but mentions is what happend under the hood
+	Dta lineage term confusing
+	Full metadata exploration hard to explore
+	NOXasNO2 not displaying 
+	Further exploration of the variables by link to click?
+	Data table background found but not immediatly
+	Info about the event not clear, linkage not completly understood
+	Include lag column with relative dates 
+	Envo data very useful that is in one place
+	
+T5
+	Relative day is not lag adjusted
+	Colorcoded for temperture not intuitive
+	Polar plot changes legend color
+	Polar plot complex to understand - maybe add text explanation
+	Polar plot not understood, bc the participant thinks that the dots are stations
+
+T6
+	300 days cause a memory exceed problem
+	Num datasets and license found faster 
+	NaN should not be colored
+	if a query how
+	Not extra plots
+T7 
+	Easy to export and data useful
+	Automatic analysis: 
+T8
+
+T9:
+	For other diseases it might not be suitable
+	PArticipant values the data export
+	How to compare with general values of temperature, like anomalies
+	
+	
+	Some of the widgets didn't work on Safari, but when switching to chrome, 
+	everything went smooth and fine. This can also be a problem of my safari, 
+	which I think is outdated. For most webpages it works fine, but for 
+	example I also have issues with the Salomon (https://www.salomon.com/es-es) haha"
+	

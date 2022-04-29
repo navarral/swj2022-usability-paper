@@ -1,0 +1,81 @@
+tag,description,number of highlights
+Moderator comment,"The moderator intervenes because the participant struggles to complete a task, wanders of task or goes too deep into a task or the systems crashes.",185
+Additional feature suggestion,,136
+Wording not clear,A word or expression that appears in a paragraph is not clear or used appropriately. ,78
+Task confusion,The task description does not accurately represent the process that needs to be completed for the user,75
+Simple export,Data and metadata generated are simple and easy to export,70
+Data provenance table simple,The information in the data provenance table is understandable,68
+Search feature simple,Control+F function to look for specific elements in the metadata is simple and easy for the user,63
+Metadata buttons design complex,The metadata buttons and/or display process are confusing.,63
+Task read again,The participants needs to read the task(s) again.,59
+Metadata content not useful or confusing,"The information provided in the data provenance table, data lineage and/or full metadata exploration windows is not useful or confusing.",53
+Positive comment,,49
+Additional explanation,"The participant requests additional explanation for a feature, visualization or text description.",48
+System issue,"The user identifies a system issue as taking long to load, crash or not responsive.",45
+Data table content clear,The event-environmental data table is understandable,45
+Heatmap plot clear,The heatmap plot is understandable,41
+Home tab clear,The text and diagram information in the home tab facilitate the overall understanding of process underpinned by the UI.,38
+Data table colors concept clear,After reading the explanatory paragraph the data table cell background colors are understood,38
+Boxplots clear,,33
+Data table column names clear,The data table column names are understood when reading the tooltip,32
+Query inputs clear,The query input options are clear in general.,32
+Data availability clear,The participants understands if there is data available or not.,32
+Data table features useful,"Hiding, restoring and ordering the columns and values in the data table improves the usability of the table",31
+Polar plot not clear,,31
+Time window clear,,31
+Search information process complex,,31
+Visualization useful,,28
+Export data useful,Exporting the data for a subsequent analysis is useful,26
+Task order,The participant starts or completes a task before the assigned order.,26
+Temporal unit input clear,The participant understands the temporal unit input.,26
+Time window terminology,"The time window 'length' and 'lag' term are not completely straightforward, generate doubts or confuse the user.",25
+Query process clear,The query process and execution is clear.,25
+Event concept not clear,The event concept and terminology are not understood as they are confused with number of cases,24
+Data table useful,,24
+Metadata content clear and useful,"The content from the data provenance, data lineage and/or full metadata windows is clear and/or useful.",24
+Tab design issue,The user cannot find the referred tab quickly,23
+Event types clear,,23
+Log in easy,The user logs in to the dashboard easily and quickly,20
+Location input clear,,20
+Aggregation method clear,The aggregation methods are clear an enough to obtain the desired data.,20
+Data table toggle useful,The toggle columns feature is useful for the participant.,20
+Data set filenames not clear,The data set filenames are not clear or confusing.,20
+Plot design complex,The axis ticks and labels from the plots are not clear.,20
+Interactive plot nice,The interactivity of the plots is appreciated by the participant.,19
+Data table useful for analysis,The data table does link event and environmental data but to understand the effect of the environmental factors for the events it requires further analysis. The data table is the starting point. The main interest is to get the data not visualize it.,19
+Additional source exploration,The user clicks on an information link leading to the exploration of additional sources besides the dashboard.,15
+Multiple input selection useful,,15
+Polar plot useful,,15
+Data table tooltip missing,When hovering over the column heading of the data table some variables are missing the information tooltip,14
+Export (meta)data useful,,14
+Events and location interest,Explicit interest in the event types or locations available.,14
+Export name and format unknown,The export file format and name are unknown or not clear.,13
+Query submission clear,The participant understands that a query is being processed that will yield the queried data.,13
+Plot comparison fine,The plots from different queries can be compared easily.,13
+Polar plot nice,The polar plot is referred as nice in terms of the design and layout.,13
+Export button design,The export buttons for (meta)data are not immediately recognized or identified by the user,12
+Negative comment,,12
+Data table features confusing,"The pagination, sorting and X features of the table are confusing.",12
+Event types terminology,The user is not sure or does not understand the event types in the dropdown options.,11
+Hide columns confusing,The hide column options is accidentally executed or is hard to comeback from it by the participant.,10
+Data availability confusion,Confusion around why the inputs below are not appearing or why the query cannot be submitted.,10
+Sort elements,The query input options and variables from the drop downs should be sorted alphabetically.,10
+Tab generation process,Tab generation process after submitting a query,9
+Heatmap slider not useful,Slider underneath the heatmap plot is redundant or not useful,9
+Open tag,,9
+Data table missing values in blue,The data table wrongly displays some of the empty cells as blue which should be grey/white,8
+Data source unknown,"The sources of the data sets are unknown, not understood in the metadata and/or data table.",8
+Export metadata useful,,6
+Data table colors not clear,The cell background colors of the data table are not directly understandable,5
+Query process not understood,The query process is not understood or recognized that it took place.,5
+Concern about time,The participants makes a comment about the speed in completing the tasks.,5
+Polar plot fine,,5
+Query inputs confusing,,5
+Irish regions unfamiliar,The Irish regions (i.e. counties) are not familiar to the user,4
+Aggregation method confusion,,4
+Pop up design,,4
+Tooltips helpful,,4
+Home tab diagram not useful,The SERDIF diagram in the home tab is not useful or confusing.,3
+Query text box input useful,The feature of typing in the input is useful or appreciated.,2
+Box plot confusion,,0
+Plots not clear,,0

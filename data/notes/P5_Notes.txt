@@ -1,0 +1,64 @@
+P7 25/11/2021
+T1
+	Information clear in general
+	No extra info
+T2
+	Login fine
+T3
+	Explores Events (i)
+	Sort events decending
+	Sort location
+	Time window lenght and lag
+	Inputs clear
+	Multiple select for aggregations
+T4
+	Data provenance table 
+		eg not understood
+		acknowleges that dublin has more datasets
+		needs more clarification
+	Data lineage
+		understands it is a query
+		not much value for a non-specialist
+	Full metadata
+		Uses collapse
+		Understands that it can be useful
+		Info easy to find
+		
+T5
+	Issues in sorting dateT and events when same dates -> first event then date
+	Cell background colours clear
+	Make table bigger
+	Remove missing values feature
+T6
+	Range slider not clear, not useful to have it twice
+	Sort events the same in the plots
+	Check for missing values in the box plot
+	Polar plot not as easy to understand as the others
+		Add clarification for the meaning of the plot
+	Histogram
+	Scatter plot to see multiple variables at the same time
+	Time series plot (same as heat
+T7
+	Data provenance comparison fine
+	Data plots could not be compared because it broke
+	Get missingness profile per column
+	Completness of a dataset
+	Combine the queries in data metrics
+T8
+	Exports are easy to download
+	Datatable for data analysis
+	Metadata as records to check data in a collaborative project
+	Appreciate importance of metadata but won't use it
+T9
+	Pretty positive experience
+	Information clear
+	Multiple tabs is useful
+	The emphasis is 
+	MEtadata helps you as educational purpose
+	DAta exploration use
+
+	
+	
+	
+	
+	

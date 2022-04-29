@@ -1,0 +1,46 @@
+P4 25/11/2021
+T1
+	Fine information understandable
+T2
+	Fine
+T3
+	Understands the events definition without the (i)
+	Select all option for all the country
+	Time-window not understood - I need to work on that
+	Struggle that there is not data available
+	Aggregation method to be variable specific - advanced senttings
+	What variables are available?
+T4
+	dataSetsUsed maybe needs clarifications
+	Understands the Data lineage is the query
+	Full metadata not very human friendly
+	Fields in the metadata
+	Values description
+T5
+	NOXasNO2 has no hover info
+	Likes the hover
+	cell background colours understood
+	toggle columns are find
+	it is useful to have the datatable
+	Missing values category as a tooltip
+	Add a new background for NaN
+T6
+	Does not understand how to collapse the buttons
+	Heatmap comparison per event: some variables not work NO2
+	Boxplot useful for distribution of values
+	Polar plot needs description on how to interpret the plot
+	Add scatter plot for colored by type of event
+T7
+	Manages to compare Q1 and Q2
+	Can compare the plots by navigating through the Query tabs
+	Include side by side comparison
+	
+T8 
+	Likes the Zip function
+	great for further exploration
+	
+T9 
+	Steps can be clarified but in general likes the dashboard
+	More interested in getting the data than exploring it with the interface
+	Add more advanced settings for specific variables
+	Smooth and easy experience

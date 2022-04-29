@@ -1,0 +1,46 @@
+P2 19/11/2021
+T1
+	Text clear
+	Images not clear
+T2
+	Fine
+T3
+	Understands how to use the Check works
+	Add 'Enter query'
+T4
+	Data linegage not clear
+	Collpase to be automatic
+	Metadata a bit confusing
+	Data sets used fine
+	Control+F not clear
+T5
+	More info for experts?
+	Cell background color not clear - color text? is it for all or for only a variable
+	Toggle columns not discovered
+	Add dataset comming from as a tooltip?
+T6
+	Why do I get only these 4 events?
+	Range not discovered
+	Sort event names
+	Polar plot not clear
+	Al 3 plots for 1 event?
+	Add datasets
+T7
+	Remove the available data message
+	Full metadata easier this time but still struggles
+	Icon for the licenses or metadata symbols instead of full text
+	More than one query to compare
+T8
+	Add sentnce to "Download all datatables" to say all the queries
+	Data useful for research
+T9
+	Overall did not get lost on the first without data practical experience
+	Quick and easy to navigate
+	Icons on tables to help in metadata
+	More visibility in terms of provenance and risks
+	Confused in the order of Query panel
+	
+	
+	
+	
+	

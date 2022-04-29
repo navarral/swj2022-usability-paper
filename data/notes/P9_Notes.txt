@@ -1,0 +1,37 @@
+P9 29/11/2021
+T1
+	Info is sufficient
+	Acronyms not clear
+T2
+	Fine
+T3
+	Not clear what the participant what the info means
+	Not clear anything done so far
+T4
+	Metadata not clear or useful at first
+	Can find info with Control+F
+	Struggles with metadata in general
+	Add headings to Data lineage ...
+	One at a time might be better
+	add info for each button
+T5
+	The table is clear and fine
+T6	
+	Heatmap average clear
+		Relative time from the event not clear
+	Boxplot not clear
+	Polar plot not clear either
+	Add more explanation
+T7
+	Easier to find stuff now that comparison can happen
+	Multiple aggregations methods for a single query - not sure
+T8
+	Exports are fine and useful
+T9
+	Nice plots and
+	Number of ensamble members to understand it better
+	Figures for publication
+	Add source
+	
+E-Health: guillaume.chevance@isglobal.org
+	

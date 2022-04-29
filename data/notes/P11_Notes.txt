@@ -1,0 +1,74 @@
+P11 01/12/2021
+T1
+	Clicking the methodology link
+	Home tab looks nice
+	links to be a simple info with the definitons
+	Visual helpful
+T2
+	No problem
+T3
+	Understands that multiple inputs are possible
+	len-lag requires more thinking than the rest
+		extra info could be useful to understand it better
+	More info about envo data sets
+T4
+	Data provenance:
+		Event name not clear
+		datSetsUsed could be more clear
+		Overall nice understanding
+		Needs a heading
+	Collapse function not completly clear
+	Data Lineage:
+		Takes the time to read it and understands the comment
+		Query understood as code
+		Technical info
+	Full metadata exploration
+		Understands categorization within the text
+	Metadata fields found
+		
+T5
+	NOXasNO2 not available
+	Headings clear
+	Eye option and toggle too
+	Cell background colours fine
+	Does not see the pages at first
+	Event name understood now as general event
+	Very useful data
+T6
+	Heatmap
+		Interactive
+		need to fix the lag
+		Likes the plot
+	Boxplot
+		Likes the statistics in the boxplots
+	PolarPlot
+		Understands the plot and enjoyes it
+	Specially likes and finds useful the heatmap bc of the patterns displayed
+T7
+	Explores all plots
+	Comparison fix scales?
+	Exploratory aspect great
+	Maybe add summary statistics for all the events?
+T8
+	Exports useful and easy to use
+	Download all fine
+T9
+	Home:
+		methodology should be an example for the semantic methods
+		KG should have a simple definition
+	Query:
+		Description to what are the events related to in the case study
+	Understands that events are random
+	Add clearer info from the datasets
+	Simplyfied info for the metadata categories
+	The rest is fine
+	The main goal would is getting the data associated to individual events that share a category
+	Export format nice
+		Date only and not time if daily data is queried
+		Add relative dates from the event next to the date -lag1,2,3
+		Sorting the dates in reverse order
+	Very useful for research
+	Halff researchers time, saves
+	
+	
+	

@@ -1,0 +1,57 @@
+P1 18/11/2021
+T1
+	Yes, sensible info
+	Scientific data to more specific, environmental data
+T2
+	Done before T1
+T3
+	Understands what example event are
+	Sort events descending
+	Sort location in alphabetical order
+	Lag and length not clear - add tooltip
+T4
+	Does not realize they are collapse at first
+	Data Lineage is not clear
+	RDF not readable for the participant
+	Prefers the table with less info
+	Understands the number of datasets
+	eg:DataUse comment not immediate
+	eg:Identification risk write clearer
+T5
+	dateT not tooltip!
+	NOXas no tooltip!
+	Cannot find text paragraph for cell color
+	Table seems fine but visualizations can be more useful
+	likes that outliers are highlighted
+	Some empty rows are blue, fix that
+	discovers how to sort the rows but they are too small - increase width of columns
+	dateTime a bit pedanting so only give the date without hours
+T6
+	Understands Heatmap
+	Discovers interactivity
+	Not sure of the slider underneath - useful for all of the events
+	Try to fix when a single day the value is very high or low -outlier issue
+	Boxplot: remove dots and add outliers bigger as a dot
+	PolarPlot: likes it
+	Add a histogram to complete the boxplot
+	Basic time series over the variable does not realize the heatmap is the same
+T7
+	Answers the questions quickly
+	Sort variables
+	No additional features besides the ones mentioned in T6
+T8
+	Exports quikly
+	Filenames are same, make them more clear
+	Zip okay
+	Data would be very useful
+	Add all selection option - needs all data
+T9
+	Pretty nice
+	Most of the things the participant wants
+	Input everything at once
+	Outliers not included in the Z-Scores computation
+	Only one box open at a time
+	Metadata useful
+	Remove a query?
+	
+	

@@ -1,0 +1,31 @@
+tag,description,number of highlights
+Moderator comment,"The moderator intervenes because the participant struggles to complete a task, wanders of task or goes too deep into a task or the systems crashes.",184
+Additional source exploration,The user clicks on an information link leading to the exploration of additional sources besides the dashboard.,14
+Home tab clear,The text and diagram information in the home tab facilitate the overall understanding of process underpinned by the UI.,36
+System issue,"The user identifies a system issue as taking long to load, crash or not responsive.",45
+Log in easy,The user logs in to the dashboard easily and quickly,20
+Simple export,Data and metadata generated are simple and easy to export,70
+Search feature simple,Control+F function to look for specific elements in the metadata is simple and easy for the user,61
+Data table features useful,"Hiding, restoring, ordering and coloring the columns and values in the data table improves the usability of the table",72
+Event concept and approach not clear,The purpose to gather data for particular events complicates the understanding of the event concept and terminology.,33
+Additional feature suggestion,"Distinguish outliers based on historical data.
+Add time series, scatter and histogram plots.
+Add an advanced aggregation method and select all features.
+Define, select and group events feature for exploration.
+Summarize the metadata in a user friendly way.
+Facilitate the understanding of the data table and increase amount of data.",126
+Export (meta)data useful,"Exporting the data, once it is understood, is useful for a subsequent analysis and the metadata for the provenance and reusability.",131
+Visualization useful,"Visualizing the data as a heat map, box plot and/or polar plot is useful, simple, interactivity adds value and the plots can be compared.",125
+Export name and format unknown,The export file format and name are unknown or not clear.,12
+Overall positive experience,Generic comment on the positive experience when using the tool.,48
+Wording not clear,A word or expression that appears in a paragraph is not clear or used appropriately. ,75
+Query inputs and elements useful,"The query input options are clear in general and the tooltips, text and drop downs (multi)inputs help the user in understanding the query process.",171
+Additional explanation,"The participant requests additional explanation for a feature, visualization, text description or tool tip.",59
+Query process complex,The query process and the sequence and meaning of the query inputs are not understood.,50
+Search information process complex,Finding relevant information in the metadata windows can be complex.,32
+Query process clear,The query process and execution is clear.,62
+Plot design complex,"The content, axis ticks and labels of the plots are not clear.",60
+Metadata content clear and useful,"The content from the data provenance, data lineage and/or full metadata windows is clear and/or useful.",88
+Metadata content not useful or confusing,"The information provided in the data provenance table, data lineage and/or full metadata exploration windows is not useful or confusing.",71
+Task sequence complex,"The task was confusing, not completed in the required order or had to be read again.",156
+Navigation complex,"The design of the export and metadata buttons together with the multiple tab approach, the functionality of the pop ups and some of the data table features complicate the navigation.",139

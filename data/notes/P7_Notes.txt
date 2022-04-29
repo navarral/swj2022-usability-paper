@@ -1,0 +1,39 @@
+P7 26/11/2021
+T1
+	Yes, all clear
+T2
+	Login easy
+T3
+	Easy to get the data
+	No issues when querying the data
+T4
+	Clear paragraph at the start
+	Collapse buttons fine
+	Data use fine
+	All fields found easy with CTRL+F
+T5
+	Description of the table clear
+	Colours clear
+	Likes the datatable
+T6
+	The plots are clear to the participant
+	Likes the hover
+	Add description to the polar plot
+T7 
+	Able to compare metadata faster
+	Comparing tab by tab is fine
+T8
+	Raw data by the CSV files useful for research
+	Metadata is useful for description of the data
+	Useful to download all at once
+T9
+	In genral terms the dashboard is useful and easy to use
+	Info provided is clear
+	Downloading data is trivial and easy
+	Very good overall experience
+	No complains
+	
+	
+	
+	
+	

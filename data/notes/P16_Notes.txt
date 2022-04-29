@@ -1,0 +1,79 @@
+P16 15/12/2021
+T1
+	Info clear
+	SPARQL RDF FAIR not clear
+	No additional info needed
+	Figure too much info, simplify the figure
+	Cannot go back from KG link
+T2
+	Login easy
+	A bit surprising that goes straight to the login
+T3
+	Events meaning not clear, not seen (i) - Agent not clear
+	Temporal unit info different than (i)
+	Envo not clear abb fro
+	Filter locations based on events
+	Advanced version to select datasets - weather and pollution names
+T4
+	location&time -> spatiotemporal 
+	Data provenance, lineage term not clear (word definition?)
+	FAIR not needed in the paragraph
+	Collapse not clear
+	Explanation of the tasks
+	Data provenance:
+		Not useful to export
+		The value of the table not clearnot clear
+	Data Lineage:
+		The code
+	Full exploration:
+		Comments not that clear but info found
+T5
+	Hovering is good
+	Order of the variables not clear
+	Cell background colours is fine
+	Pages not useful better to have them all
+	Hiding and Toggle columns (hide/unhide naming)
+	Learned what information learnt about what data is in there
+	Heatmap colour some extra info
+	Summary of metadata explanation
+T6
+	Include full name not abbreviation
+	Heatmap:
+		events without data should be displayed
+		fix lag
+	Boxplot:
+		better bc it shows all data
+		Dot is hard to see bc of the size
+		more informative than the heatmap
+	Polarplot:
+		Slower to load
+		Needs explanation
+		Control over which events to include
+		Holistic overview of the county
+		More dropdowns
+T7
+	Wind direction does not need wind direction
+	knot is a wierd unit
+	Comparison fine
+	Clicking between tabs might be tricky
+	Scales Q1 Q2 not comparable
+	Side by side comparison
+	Y tooltip not needed
+T8
+	Export clear
+	Range of formats
+	Download or export but be standard
+	Download all -> downloadable information
+		menu to select which files to download
+	FAIR exports that the use would not have there maybe have them in another tab
+	hormonize the downloads in the download area
+	collapse menu in the donwload all
+T9
+	Events need clarification - simple and narrower
+	Clarifying acronyms
+	Control+F is strange
+	Look at EU portals (and comission) to see where they position their metadata
+		
+	
+	Versalles data hub
+	Omea finland
