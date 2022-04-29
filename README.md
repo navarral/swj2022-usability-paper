@@ -60,6 +60,8 @@ The data files are organised as follows:
 │   └── README.md (The main readme)
 └── README.md (The main readme)
 ```
+## Code
+### Figures
 
 The figures in the article can be reproduced by running the `swj2022-figures.py` script.
 The commands to run the Python file are the following:
@@ -70,4 +72,4 @@ The commands to run the Python file are the following:
    1. `source venv/bin/activate`
    2. `pip install -r requirements.txt`
    3. `python swj2022-figures.py`
-4. The generations of the article's figures can also be traced in the following [Jupyter notebook](https://github.com/navarral/swj2022-usability-paper/blob/main/swj2022-figures-notebook.ipynb).
+4. The generation of the article's figures can also be traced in the following [Jupyter notebook](https://github.com/navarral/swj2022-usability-paper/blob/main/swj2022-figures-notebook.ipynb).
