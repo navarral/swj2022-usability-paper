@@ -1,0 +1,111 @@
+A series of example SPARQL queries are presented to be used in the following SPARQL endpoint: https://serdif-example.adaptcentre.ie/sparql
+First, click on the top right corner "Choose a repository" and select "repo-serdif-envo-ie".
+Then, you can copy and paste the queries underneath to explore the data available.
+
+-- Q1: Check counties with available data -----------------------------------------------
+
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?LOI 
+WHERE { 
+    ?county
+        a geo:Feature, <http://ontologies.geohive.ie/osi#County> ;
+        rdfs:label ?LOI ;
+        geo:hasGeometry/geo:asWKT ?countyGeo .
+    FILTER (lang(?LOI) = 'en')
+}
+
+-- Q2: Select one of the counties to find out the datasets available ---------------------
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?LOI ?envoDataSet
+WHERE {
+    # Filter environmental data within a region
+    ?envoDataSet
+        a qb:DataSet, geo:Feature, prov:Entity, dcat:Dataset ;
+        dct:Location/geo:asWKT ?envoGeo .
+    #County geom  
+    VALUES ?LOI {"CORK"@en}
+    ?county
+        a geo:Feature, <http://ontologies.geohive.ie/osi#County> ;
+        rdfs:label ?LOI ;
+        geo:hasGeometry/geo:asWKT ?countyGeo .
+    FILTER(geof:sfWithin(?envoGeo, ?countyGeo))  
+}
+
+
+-- Q3: construct a graph that links a particular health event with environmental datasets --
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX eg: <http://example.org/ns#>
+PREFIX geohive-county-geo: <http://data.geohive.ie/pathpage/geo:hasGeometry/county/>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX geo:	<http://www.opengis.net/ont/geosparql#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+CONSTRUCT{       
+    ?sliceName
+        a qb:Slice;
+        qb:sliceStructure 			eg:sliceByTime ;
+        eg:refArea 				    ?evGeoUri ;
+        eg:refEvent        			?eventRef ;
+        qb:observation   			?obsName ;
+        .
+
+    ?obsName
+        a qb:Observation ;
+        qb:dataSet 					?datasetName ;
+        sdmx-dimension:timePeriod 	?obsTimePeriod ;
+        ?envProp 					?envVar ;
+        .
+}
+WHERE {
+
+    {
+        SELECT ?event ?yearT ?monthT ?dayT ?envProp (AVG(?envVar) AS ?envVar)
+        WHERE {
+            {
+                SELECT ?obsData ?obsTime
+                WHERE{
+                    VALUES ?envoDataSet { <http://example.org/ns#dataset-eea-20211221T120000-IE001BP>  <http://example.org/ns#dataset-eea-20211221T120000-IE002BP>  <http://example.org/ns#dataset-eea-20211221T120000-IE004BP>  <http://example.org/ns#dataset-eea-20211221T120000-IE005DP>  <http://example.org/ns#dataset-eea-20211221T120000-IE0110A>  <http://example.org/ns#dataset-met-20211012T120000-IE1075>  <http://example.org/ns#dataset-met-20211012T120000-IE3904>  <http://example.org/ns#dataset-met-20211012T120000-IE575>  <http://example.org/ns#dataset-met-20211012T120000-IE775> }  
+                    ?obsData
+                        a qb:Observation ;
+                        qb:dataSet ?envoDataSet ;
+                        sdmx-dimension:timePeriod ?obsTime .        
+                    FILTER(?obsTime > "2016-01-28T00:00:00Z"^^xsd:dateTime && ?obsTime <= "2021-01-01T00:00:00Z"^^xsd:dateTime)
+                }
+            }
+            ?obsData ?envProp ?envVar .
+            FILTER(datatype(?envVar) = xsd:float)    
+            # String manipulation to aggregate observations per time unit
+            BIND(YEAR(?obsTime) AS ?yearT)
+            BIND(MONTH(?obsTime) AS ?monthT)
+            BIND(DAY(?obsTime) AS ?dayT)
+            BIND(HOURS(?obsTime) AS ?hourT)
+            BIND("event-A" AS ?event)
+        }
+        GROUP BY ?event ?envProp ?dayT ?monthT ?yearT
+    }
+
+    # Fix single digits when using SPARQL temporal functions
+    BIND( IF( BOUND(?monthT), IF(STRLEN( STR(?monthT) ) = 2, STR(?monthT), CONCAT("0", STR(?monthT)) ), "01") AS ?monthTF )
+    BIND( IF( BOUND(?dayT), IF( STRLEN( STR(?dayT) ) = 2, STR(?dayT), CONCAT("0", STR(?dayT)) ), "01" ) AS ?dayTF )
+    BIND( IF( BOUND(?hourT) , IF( STRLEN( STR(?hourT) ) = 2, STR(?hourT), CONCAT("0", STR(?hourT)) ), "00" ) AS ?hourTF )
+    # Build dateTime values 
+    BIND(CONCAT(str(?yearT),"-",?monthTF,"-",?dayTF,"T",?hourTF,":00:00Z") AS ?obsTimePeriod)
+    # Build IRI for the CONSTRUCT
+    BIND(IRI(CONCAT("http://example.org/ns#dataset-ee-20211012T120000-IE-QT_", ENCODE_FOR_URI(STR(NOW())))) AS ?datasetName)
+    BIND(IRI(CONCAT(STR(?datasetName),"-", ?event ,"-obs-", str(?yearT),?monthTF,?dayTF,"T",?hourTF,"0000Z")) AS ?obsName)
+    BIND(IRI(CONCAT(STR(?datasetName),"-", ?event ,"-slice")) AS ?sliceName)
+    BIND(IRI(CONCAT(str(?event), "-geo")) AS ?evGeoUri)
+    BIND(IRI(CONCAT(STR(?datasetName),"-", ?event ,"-slice")) AS ?sliceName)
+    BIND(IRI(CONCAT(STR("http://example.org/ns#"), ?event)) AS ?eventRef)
+
+}
