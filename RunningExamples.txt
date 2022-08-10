@@ -42,6 +42,7 @@ WHERE {
 
 
 -- Q3: construct a graph that links a particular health event with environmental datasets --
+-- This query takes approximately 2min to run
 
 PREFIX qb: <http://purl.org/linked-data/cube#>
 PREFIX eg: <http://example.org/ns#>
