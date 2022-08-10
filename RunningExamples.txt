@@ -79,7 +79,7 @@ WHERE {
                         a qb:Observation ;
                         qb:dataSet ?envoDataSet ;
                         sdmx-dimension:timePeriod ?obsTime .        
-                    FILTER(?obsTime > "2016-01-28T00:00:00Z"^^xsd:dateTime && ?obsTime <= "2021-01-01T00:00:00Z"^^xsd:dateTime)
+                    FILTER(?obsTime > "2016-01-28T00:00:00Z"^^xsd:dateTime && ?obsTime <= "2016-02-28T00:00:00Z"^^xsd:dateTime)
                 }
             }
             ?obsData ?envProp ?envVar .
